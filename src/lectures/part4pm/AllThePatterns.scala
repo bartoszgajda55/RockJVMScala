@@ -52,11 +52,11 @@ object AllThePatterns extends App {
   }
 
   // 6 - type specifiers
-  val unknown: Any = 2
-  val unknownMatch = unknownMatch match {
-    case list: List[Int] => "explicit type specifier"
-    case _ =>
-  }
+//  val unknown: Any = 2
+//  val unknownMatch = unknownMatch match {
+//    case list: List[Int] => "explicit type specifier"
+//    case _ =>
+//  }
 
   // 7 - name binding
   val nameBindingMatch = aList match {
